@@ -1,0 +1,5 @@
+add_cython_target(_kfusion CXX)
+add_library(_kfusion MODULE ${_kfusion})
+target_link_libraries(_kfusion kfusion)
+python_extension_module(_kfusion)
+install(TARGETS _kfusion LIBRARY DESTINATION kfusion)

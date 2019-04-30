@@ -3,3 +3,6 @@ _darcs
 kinect
 test
 build
+
+/_skbuild/
+/kfusion/*.so
